@@ -2,3 +2,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 		When you runs the command "git init", a .git file is created in that directory. 
 		This must be done to log commits.
+		
+	Reflect: Staging Area
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+		The staging area is a pre commit it lets the user know that thesefiles will be packaged in the next commit.
+		It is a useful tool for knowing exactly what information is going to be commited.
