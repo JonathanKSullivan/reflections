@@ -1,0 +1,25 @@
+	Reflect: Using History for Efficiency
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+		you can have multiple temporal access points in which to manipulate the file. lets say that a particular change on a website
+		was not what thee client wanted but everything prior to that meeting was fine. You could easily retreive and old version and 
+		implement the correct solution.
+	
+	Reflect: Manual Commits
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+		Pro is the the bersions are much more meaningful and readible to humans however the con is that humans are prone to error
+		and emotion. If the deadline for a product is in 12 hours and we've found significant bugs, the our emotion may lead us
+		to use bad practices due to stress.
+	Reflect: Multi-File Commits
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+		Programs are usually multi file projects with interconeted computation logic. Documents are not.
+
+	Reflect: Using Git to View History
+How can you use the commands git log and git diff to view the history of files?
+		you must first cd in to the repository. the git log will show you a chronologivcal history of all the previous commits
+		starting with the most recent. git diff allows yyou to compare any 2 commits by using the 2 commit ids.
+		
+	Reflect: Confidence from Version Control
+How might using version control make you more confident to make changes that could break something?
+		because you can always revert back to a working copy.

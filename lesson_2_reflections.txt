@@ -1,0 +1,4 @@
+	Reflect: Initializing a Repository
+What happens when you initialize a repository? Why do you need to do it?
+		When you runs the command "git init", a .git file is created in that directory. 
+		This must be done to log commits.
